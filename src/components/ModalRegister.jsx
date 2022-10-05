@@ -20,7 +20,7 @@ function ModalRegister() {
   document.title = "Journey"
 
 
-  const [message, setMessage] = useState("halo");
+  const [message, setMessage] = useState(null);
   const [form, setForm] = useState({
     name: '',
     email: '',
