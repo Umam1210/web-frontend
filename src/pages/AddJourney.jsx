@@ -139,10 +139,11 @@ function AddJourney() {
   return (
     <>
       <Navbarlogin />
-
+      <div className="d-flex justify-content-center">
       <Col md={3}>
         <img src={preview} alt="" className="w-100" />
       </Col>
+      </div>
       <form onSubmit={(e) => handleSubmit.mutate(e)}>
         <div className='mx-5'>
           <Form.Group className="my-3" controlId="formBasicEmail">
