@@ -31,7 +31,7 @@ function CardLogin() {
                 <Card.Body>
                   <Card.Title>{item?.title}</Card.Title>
                   <Card.Text>
-                    {item?.desc}
+                    {item?.desc.substring(0, 12)}...
                   </Card.Text>
                 </Card.Body>
               </Link>

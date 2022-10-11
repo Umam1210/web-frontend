@@ -81,7 +81,7 @@ function ModalRegister() {
       // <Alert variant="danger" className="py-1">
       //   Failed
       // </Alert>
-      // );
+      // );git 
       setMessage(alert);
       console.log(error);
     }

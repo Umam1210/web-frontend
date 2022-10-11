@@ -38,7 +38,7 @@ function CardBookmark() {
                   <Card.Title className='me-auto'>{item?.title}</Card.Title>
                   <p className='p-2' style={{ color: "#3B97D3" }}>{item?.user.name}</p>
                   </div>
-                <Card.Text>{item?.desc}</Card.Text>
+                <Card.Text>{item?.desc.substring(0, 12)}...</Card.Text>
                 </Card.Body>
               </Link>
             </Card>

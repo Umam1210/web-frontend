@@ -44,7 +44,7 @@ function CardProfile() {
                   <p className='p-2' style={{ color: "#3B97D3" }} >{item?.user.name}</p>
                   </div>
                   <Card.Text>
-                    {item?.desc}
+                    {item?.desc.substring(0, 12)}...
                   </Card.Text>
                 </Card.Body>
               </Link>

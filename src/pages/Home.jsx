@@ -80,7 +80,7 @@ function Home() {
                                                 <p className='p-2'>{item?.user.name}</p>
                                             </div>
                                         <Card.Text>
-                                            {item?.desc}
+                                            {item?.desc.substring(0, 12)}...
                                         </Card.Text>
                                     </Card.Body>
                                 </Link>
