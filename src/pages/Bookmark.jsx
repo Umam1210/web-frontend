@@ -52,7 +52,7 @@ let user = useQuery('usersCache', async () => {
                                                 <p className='p-2'>{item?.user?.name}</p>
                                             </div>
                                             <Card.Text>
-                                                {item?.artikel?.desc.substring(0 ,12)}
+                                                {item?.artikel?.desc.substring(0 ,12)}...
                                             </Card.Text>
                                         </Card.Body>
                                     </Link>
