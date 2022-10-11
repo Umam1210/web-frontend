@@ -45,14 +45,14 @@ let user = useQuery('usersCache', async () => {
 
                                     </Link>
                                     <Link to={`/detail/${item?.artikel.id}`} className='text-decoration-none text-dark'>
-                                        <Card.Img variant="top" src={item?.artikel.image} className="pt-2" />
+                                        <Card.Img variant="top" src={item?.artikel?.image} className="pt-2" />
                                         <Card.Body>
                                             <div className='d-flex'>
                                                 <Card.Title className='me-auto'>{item?.artikel.title}</Card.Title>
-                                                <p className='p-2'>{item?.user.name}</p>
+                                                <p className='p-2'>{item?.user?.name}</p>
                                             </div>
                                             <Card.Text>
-                                                {item?.artikel.desc}
+                                                {item?.artikel?.desc.substring(0 ,12)}
                                             </Card.Text>
                                         </Card.Body>
                                     </Link>
