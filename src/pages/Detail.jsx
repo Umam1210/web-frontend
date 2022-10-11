@@ -36,11 +36,6 @@ function Detail() {
   };
 
 
-  let today = new Date();
-
-  let date=today.getDate() + "-"+ parseInt(today.getMonth()+1) +"-"+today.getFullYear();
-  
-  console.log(date)
 
   return (
     <>
@@ -54,7 +49,7 @@ function Detail() {
           {data?.user.name}
         </h6>
       </div>
-      <span style={{ color: "#3B97D3" }} className=" mx-5">{date}</span>
+      <span style={{ color: "#3B97D3" }} className=" mx-5"></span>
       <div className='px-5 py-3'>
       <img src={logo} alt="" 
       className='position-absolute end-0 mt-3'

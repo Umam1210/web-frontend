@@ -15,9 +15,9 @@ function DetailLogin() {
   });
 
   
-  let today = new Date();
+  // let today = new Date();
 
-  let date = today.getDate() + "-" + parseInt(today.getMonth() + 1) + "-" + today.getFullYear();
+  // let date = today.getDate() + "-" + parseInt(today.getMonth() + 1) + "-" + today.getFullYear();
 
 
   return (
@@ -31,7 +31,7 @@ function DetailLogin() {
           {data?.user.name}
           </h6>
       </div>
-      <span style={{ color: "#3B97D3" }} className=" mx-5">{date}</span>
+      <span style={{ color: "#3B97D3" }} className=" mx-5"></span>
       <div className='px-5 py-3'>
         <img src={data?.image} alt="" className='rounded' width={"97%"} />
       </div>
