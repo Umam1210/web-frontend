@@ -26,7 +26,7 @@ function DetailLogin() {
           {data?.user.name}
           </h6>
       </div>
-      <span style={{ color: "#3B97D3" }} className=" mx-5">{data?.date}</span>
+      <span style={{ color: "#3B97D3" }} className=" mx-5">{data?.date.substring(0, 10)}</span>
       <div className='px-5 py-3'>
         <img src={data?.image} alt="" className='rounded' width={"97%"} />
       </div>
