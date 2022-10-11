@@ -139,6 +139,10 @@ function AddJourney() {
   return (
     <>
       <Navbarlogin />
+
+      <Col md={3}>
+        <img src={preview} alt="" className="w-100" />
+      </Col>
       <form onSubmit={(e) => handleSubmit.mutate(e)}>
         <div className='mx-5'>
           <Form.Group className="my-3" controlId="formBasicEmail">
