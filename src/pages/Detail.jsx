@@ -49,7 +49,7 @@ function Detail() {
           {data?.user.name}
         </h6>
       </div>
-      <span style={{ color: "#3B97D3" }} className=" mx-5"></span>
+      <span style={{ color: "#3B97D3" }} className=" mx-5">{data?.date}</span>
       <div className='px-5 py-3'>
       <img src={logo} alt="" 
       className='position-absolute end-0 mt-3'
