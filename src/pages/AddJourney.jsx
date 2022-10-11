@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbarlogin from '../components/NavbarLogin'
 
-import { Form, InputGroup, FloatingLabel, Button } from "react-bootstrap";
+import { Form, InputGroup, FloatingLabel, Button, Col } from "react-bootstrap";
 import { useMutation } from 'react-query'
 import { useState, useRef, useEffect, useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
